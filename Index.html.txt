@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cinco Taqueria | Mexican Street Tacos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #b11226;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #f4c430;
+      color: #000;
+      padding: 12px 24px;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #b11226;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Cinco Taqueria</h1>
+  <p>Authentic Mexican Street Tacos in Moncks Corner, SC</p>
+  <a href="#order" class="btn">Order Online</a>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Dine-In</h3>
+      <p>Enjoy fresh, authentic Mexican street tacos in a welcoming atmosphere.</p>
+    </div>
+    <div class="card">
+      <h3>Takeout</h3>
+      <p>Grab your favorites on the go — fast, fresh, and packed with flavor.</p>
+    </div>
+    <div class="card">
+      <h3>Online Ordering</h3>
+      <p>Order ahead for pickup and skip the wait.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Cinco Taqueria</h2>
+  <p>
+    Cinco Taqueria brings the bold flavors of authentic Mexican street tacos to
+    Moncks Corner, South Carolina. We use fresh ingredients, traditional recipes,
+    and a passion for great food to serve tacos done right.
+  </p>
+</section>
+
+<section id="order">
+  <h2>Order Online</h2>
+  <p style="text-align:center;">
+    Online ordering coming soon!  
+    Call us or visit in-store to place your order today.
+  </p>
+</section>
+
+<section>
+  <h2>Visit Us</h2>
+  <p style="text-align:center;">
+    📍 Moncks Corner, SC  
+    <br><br>
+    ⏰ Hours:  
+    <br>Mon–Sat: 11am – 9pm  
+    <br>Sunday: Closed
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Cinco Taqueria • Moncks Corner, SC</p>
+</footer>
+
+</body>
+</html>
